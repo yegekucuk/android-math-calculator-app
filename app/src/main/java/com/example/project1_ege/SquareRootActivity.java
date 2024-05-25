@@ -1,6 +1,7 @@
 package com.example.project1_ege;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -8,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SquareRootActivity extends AppCompatActivity {
+public class SquareRootActivity extends Activity {
 
     private EditText numberInput;
     private TextView resultText;

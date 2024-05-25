@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Mathematics Calculator</string>
     <string name="launch_text">Welcome to my app! You can do Logarithm, Exponential and Square Root calculations with using this app!</string>
-    <string name="author"> Made by Yunus Ege KUCUK </string>
-    <string name="def_log"> A logarithm is a mathematical function that represents the exponent to which a specified base must be raised to produce a given number. It is typically abbreviated as "log". </string>
-    <string name="def_exp"> Exponential describes growth or decay that occurs at a rate proportional to the current value. </string>
-    <string name="def_sqrt"> The square root is a mathematical operation that determines a value which, when multiplied by itself, gives the original number.
+    <string name="author">Made by Yunus Ege KUCUK </string>
+    <string name="def_log">A logarithm is a mathematical function that represents the exponent to which a specified base must be raised to produce a given number. It is typically abbreviated as "log". </string>
+    <string name="def_exp">Exponential describes growth or decay that occurs at a rate proportional to the current value. </string>
+    <string name="def_sqrt">The square root is a mathematical operation that determines a value which, when multiplied by itself, gives the original number.
 </string>
 
 
