@@ -24,14 +24,13 @@ public class SquareRootActivity extends Activity {
         findViewById(R.id.calculateButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                calculateLogarithm();
+                calculateSqrt();
             }
         });
     }
 
     @SuppressLint("DefaultLocale")
-    private void calculateLogarithm() {
-        // Calculate and print the logarithm on screen
+    private void calculateSqrt() {
         String input = numberInput.getText().toString();
         if (!input.isEmpty()) {
             double number = Double.parseDouble(input);

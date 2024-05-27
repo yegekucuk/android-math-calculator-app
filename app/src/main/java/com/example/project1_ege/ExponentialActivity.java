@@ -33,7 +33,6 @@ public class ExponentialActivity extends Activity {
 
     @SuppressLint("DefaultLocale")
     private void calculateExponent() {
-        // Calculate and print the logarithm on screen
         String input = numberInput.getText().toString();
         String input2 = exponent.getText().toString();
         if (!input.isEmpty() && !input2.isEmpty()) {
