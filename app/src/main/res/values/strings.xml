@@ -4,8 +4,7 @@
     <string name="author">Made by Yunus Ege KUCUK </string>
     <string name="def_log">A logarithm is a mathematical function that represents the exponent to which a specified base must be raised to produce a given number. It is typically abbreviated as "log". </string>
     <string name="def_exp">Exponential describes growth or decay that occurs at a rate proportional to the current value. </string>
-    <string name="def_sqrt">The square root is a mathematical operation that determines a value which, when multiplied by itself, gives the original number.
-</string>
-
+    <string name="def_sqrt">The square root is a mathematical operation that determines a value which, when multiplied by itself, gives the original number.</string>
+    <string name="def_fact">The factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n. It is used in permutations, combinations, and various algebraic contexts to calculate the number of ways to arrange or select items.</string>
 
 </resources>

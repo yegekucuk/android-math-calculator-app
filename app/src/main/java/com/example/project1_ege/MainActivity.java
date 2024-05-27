@@ -11,6 +11,12 @@ import android.widget.AdapterView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+
+    // Week 12
+    // Add 3 more functionalities
+    // Add example
+    // First show image and example, then show calculator
+
     ListView listView;
 
     @Override
@@ -19,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.listView);
 
-        String[] values = new String[] { "Logarithm", "Exponential", "Square Root" };
+        String[] values = new String[] { "Logarithm", "Exponential", "Square Root", "Factorial"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
         listView.setAdapter(adapter);
@@ -36,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 2:
                         startActivity(new Intent(MainActivity.this, SquareRootActivity.class));
+                        break;
+                    case 3:
+                        startActivity(new Intent(MainActivity.this, FactorialActivity.class));
                         break;
                 }
             }

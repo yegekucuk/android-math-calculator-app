@@ -24,6 +24,7 @@
         <activity android:name=".LogarithmActivity" />
         <activity android:name=".ExponentialActivity" />
         <activity android:name=".SquareRootActivity" />
+        <activity android:name=".FactorialActivity" />
     </application>
 
 </manifest>
