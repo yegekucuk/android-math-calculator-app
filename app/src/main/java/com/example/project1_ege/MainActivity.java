@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.listView);
 
-        String[] values = new String[] { "Logarithm", "Exponential", "Square Root", "Factorial"};
+        String[] values = new String[] { "Logarithm", "Exponential", "Square Root", "Factorial", "Trigonometric"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
         listView.setAdapter(adapter);
@@ -45,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 3:
                         startActivity(new Intent(MainActivity.this, FactorialActivity.class));
+                        break;
+                    case 4:
+                        startActivity(new Intent(MainActivity.this, TrigonometricActivity.class));
                         break;
                 }
             }
