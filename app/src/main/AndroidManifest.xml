@@ -26,6 +26,7 @@
         <activity android:name=".SquareRootActivity" />
         <activity android:name=".FactorialActivity" />
         <activity android:name=".TrigonometricActivity" />
+        <activity android:name=".HyperbolicActivity" />
     </application>
 
 </manifest>
